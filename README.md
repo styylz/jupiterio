@@ -1,13 +1,20 @@
-const link = document.querySelector(".login-link");
+# Jupiter.io
 
+## Introduction
+
+>This project is about company JUPITER. JUPITER is lead tech company in front-end development, providing best decision for clients. Fast and responsive web-sites are generated in a short time, providing efficient and quality oriented solutions. JUPITER focus to create happy clients. We as a team believe, that, decisions need to be implemented in time. Agile method let us to create and remake web-sites overnight. JUPITER is clients first needs, later on payments. We implement products which are sustainable. 
+
+## Code Samples
+
+>  JS Login
+
+const link = document.querySelector(".login-link");
 const popup = document.querySelector(".modal-login");
 const close = document.querySelector(".modal-close");
-
 const login = document.querySelector("[name=login]");
 const form = document.querySelector("form");
 const password = document.querySelector("[name=password]");
 const submit = document.querySelector(".submit");
-let name = document.querySelector(".name");
 
 let isStorageSupport = true;
 const storage = "";
@@ -54,12 +61,13 @@ form.addEventListener("submit", function (evt) {
             localStorage.setItem("login", login.value);
         }
     }
-
-
 })
 
 // submit
-
 submit.addEventListener("click", function () {
     alert("Message sent");
 })
+
+## Installation
+
+> Simply add all files to local environment or server and run it. Main page is index.html. All files are highly sorted. To find other pages, go to directory "pages". 
