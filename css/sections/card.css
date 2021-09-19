@@ -1,0 +1,37 @@
+/* card-section */
+
+.card-section {
+    height: calc(100vh -75px);
+    padding: 20px;
+    width: 100%;
+}
+
+/* changed */
+.card {
+    height: 100%;
+}
+
+.card-body {
+
+    font-size: 0.9rem;
+    background-image: url("../../img/cool-background1.png");
+    background-size: cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: all 0.1543s ease-out;
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-body:hover{
+  background-image: url("../../img/cool-background.png");
+  color: #ffa600;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.bi:hover {
+    color: orange;
+}

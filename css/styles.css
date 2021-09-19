@@ -1,0 +1,68 @@
+html{
+    height: 100vh;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  width: 100%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-image: url("../img/shutterstock-450769840.jpg");
+
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-clip: border-box;
+
+  height: 100%
+}
+
+/* Main page */
+
+.hero-intro {
+    height: 85.5vh;
+    padding-top: 155px;
+}
+
+.hero-form {
+    height: 90.5vh;
+    padding-top: 80px;
+}
+
+.hero-about {
+  height: 90.5vh;
+    padding-top: 80px;
+}
+
+
+.content {
+    height: 100%;
+    width: 565px;
+
+}
+
+.title {
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+
+
+/* About us */
+
+.about-section-article {
+  max-width: 580px;
+
+}
+
+.about-footer-color {
+
+background: #000000;
+background: -webkit-linear-gradient(to left, #434343, #000000);
+background: linear-gradient(to left, #434343, #000000);
+}
+

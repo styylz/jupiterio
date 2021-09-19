@@ -1,0 +1,99 @@
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	right: 47.5%;
+	margin-left: -30px;
+	top: 48%;
+}
+
+.arrows path {
+	stroke: #ffa600;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s;
+}
+
+/* Gallery */
+img {
+  width: 30%;
+  height: 100%;
+  object-fit:cover;
+
+  -webkit-box-reflect:below 1px linear-gradient(transparent, transparent, #0004);
+
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+.container-gallery {
+  position: relative;
+  max-width:600px;
+  max-height:350px;
+
+
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+
+}
+.container-gallery:hover img {
+  opacity:0.3;
+
+}
+.container-gallery img:hover {
+  transform:perspective(800px)       rotateY(0deg);
+  opacity:1;
+}
+
+
+/* Error bounce */
+
+@keyframes bounce {
+    0% { transform: translateY(-2000px);}
+    70% { transform: translateY(30px);}
+    90% { transform: translateY(-10px);}
+    100% { transform: translateY(0);}
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0);}
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-10px);}
+    20%, 40%, 60%, 80% { transform: translateX(10px);}
+
+}
+
