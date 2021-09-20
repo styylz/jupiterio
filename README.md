@@ -6,7 +6,7 @@
 
 ## Code Samples
 
-### JS Login
+## JS Login
 
 ### Variables
 ```
