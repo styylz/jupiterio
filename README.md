@@ -2,7 +2,7 @@
 
 ## Introduction
 
->This project is about company JUPITER. JUPITER is lead tech company in front-end development, providing best decision for clients. Fast and responsive web-sites are generated in a short time, providing efficient and quality oriented solutions. JUPITER focus to create happy clients. We as a team believe, that, decisions need to be implemented in time. Agile method let us to create and remake web-sites overnight. JUPITER is clients first needs, later on payments. We implement products which are sustainable. 
+>This project is about company JUPITER. JUPITER is a lead tech company in front-end development, providing best decision for clients. Fast and responsive web-sites are generated in a short time, providing efficient and quality oriented solutions. JUPITER focus to create happy clients. We as a team believe, that, decisions need to be implemented in time. Agile method let us to create and remake web-sites overnight. JUPITER is clients first needs, later on payments. We implement products which are sustainable. 
 
 ## Code Samples
 
@@ -19,12 +19,14 @@ const submit = document.querySelector(".submit");
 let isStorageSupport = true;
 const storage = "";
 
+<!-- Checks if localStora stores login -->
 try {
     storage = localStorage.getItem("login");
 } catch (err) {
     isStorageSupport = false;
 }
 
+<!-- On click opens Modal Window -->
 // open
 link.addEventListener("click", function(evt) {
     evt.preventDefault();
@@ -39,6 +41,7 @@ link.addEventListener("click", function(evt) {
     }
 } );
 
+<!-- On click on cross closes Modal Window -->
 // close
 close.addEventListener("click", function(evt){
     evt.preventDefault();
@@ -47,7 +50,9 @@ close.addEventListener("click", function(evt){
 
 })
 
-// form
+<!-- Checks if login or password exists, if not shake animation activates at modal window -->
+<!--  -->
+// form 
 form.addEventListener("submit", function (evt) {
     evt.preventDefault();
     if(!login.value || !password.value) {
@@ -63,6 +68,7 @@ form.addEventListener("submit", function (evt) {
     }
 })
 
+<!-- On submit click calls alert window -->
 // submit
 submit.addEventListener("click", function () {
     alert("Message sent");
