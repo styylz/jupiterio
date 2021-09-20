@@ -4,9 +4,9 @@
 
 >This project is about company JUPITER. JUPITER is a lead tech company in front-end development, providing best decision for clients. Fast and responsive web-sites are generated in a short time, providing efficient and quality oriented solutions. JUPITER focus to create happy clients. We as a team believe, that, decisions need to be implemented in time. Agile method let us to create and remake web-sites overnight. JUPITER is clients first needs, later on payments. We implement products which are sustainable. 
 
-## Code Samples
+> Code Samples
 
->  ##JS Login
+##JS Login
 
 ### Variables
 ```
