@@ -19,7 +19,7 @@ const submit = document.querySelector(".submit");
 let isStorageSupport = true;
 const storage = "";
 
-<!-- Checks if localStora stores login -->
+
 try {
     storage = localStorage.getItem("login");
 } catch (err) {
