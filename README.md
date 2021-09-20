@@ -19,13 +19,13 @@ const submit = document.querySelector(".submit");
 let isStorageSupport = true;
 const storage = "";
 
-
+```
 try {
     storage = localStorage.getItem("login");
 } catch (err) {
     isStorageSupport = false;
 }
-
+```
 <!-- On click opens Modal Window -->
 // open
 link.addEventListener("click", function(evt) {
