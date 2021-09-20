@@ -66,3 +66,31 @@ background: -webkit-linear-gradient(to left, #434343, #000000);
 background: linear-gradient(to left, #434343, #000000);
 }
 
+/* Mediaqueries */
+
+@media screen and (min-width: 360px) {
+    .arrows{
+     top: 38%;
+     right: 42%;
+   }
+ }
+
+ @media screen and (min-width: 560px) {
+    .arrows{
+     top: 42%;
+     right: 45%;
+   }
+ }
+
+ @media screen and (min-width: 768px) {
+    .arrows{
+     top: 45%;
+     right: 45%;
+   }
+ }
+
+ @media screen and (min-width: 969px) {
+    .arrows{
+     top: 48%;
+     right: 47%;
+   }
