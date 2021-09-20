@@ -3,8 +3,8 @@ html{
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font);
+    font-family: var(--secondary-font);
 }
 
 .page {
@@ -50,21 +50,21 @@ body {
     color: aliceblue;
 }
 
+.text{
+  color: aliceblue;
+  font-weight: 100;
+  font-family: var(--secondary-font);
+}
+
 
 
 /* About us */
 
 .about-section-article {
   max-width: 580px;
-
 }
 
-.about-footer-color {
 
-background: #000000;
-background: -webkit-linear-gradient(to left, #434343, #000000);
-background: linear-gradient(to left, #434343, #000000);
-}
 
 /* Mediaqueries */
 
@@ -92,5 +92,6 @@ background: linear-gradient(to left, #434343, #000000);
  @media screen and (min-width: 969px) {
     .arrows{
      top: 48%;
-     right: 47%;
+     right: 48.2%;
    }
+ }
