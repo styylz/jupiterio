@@ -1,9 +1,9 @@
 .text-mont {
-    font-family: 'Montserrat', sans-serif;
-    color: orange;
+    font-family: var(--main-font);
+    color: var(--font-color-orange);
 }
 
 .text-rob {
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
+    font-family: var(--secondary-font);
+    color: var(--font-color-light);
 }

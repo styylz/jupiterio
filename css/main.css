@@ -1,15 +1,18 @@
-@import url(../css/components/modal.css);
-@import url(../css/components/navbar.css);
+@import "../css/base/variables.css";
 
-@import url(../css/animations/animations.css);
+@import  "../css/components/modal.css";
+@import "../css/components/navbar.css";
 
-@import url(../css/sections/card.css);
-@import url(../css/sections/form.css);
 
-@import url(../css/layout/blockquote.css);
+@import "../css/animations/animations.css";
 
-@import url(../css/utilities/hover.css);
+@import "../css/sections/card.css";
+@import "../css/sections/form.css";
 
-@import url(..//css/styles.css);
+@import "../css/layout/blockquote.css";
 
-@import url(../css/base/typography.css);
+@import "../css/utilities/hover.css";
+
+@import "..//css/styles.css";
+
+@import "../css/base/typography.css";

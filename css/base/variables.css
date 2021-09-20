@@ -1,0 +1,16 @@
+:root {
+    /* colors */
+    --primary: orange;
+    --secondary: black;
+    --light: whitesmoke;
+
+
+      /* typography */
+    --main-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+
+    --font-color-orange: var(--primary);
+    --font-color-dark: var(--secondary);
+    --font-color-light: var(--light);
+
+}

@@ -4,18 +4,10 @@
     margin-top: 160px;
 }
 
-.blockquote {
-    color: white;
-}
-
 
 .blockquote-text {
-    color: rgb(255, 217, 0);
-    font-family: 'Montserrat';
+    color: var(--primary);
+    font-family: var(--main-font);
     font-weight: 100;
 }
 
-
-background2 {
-    padding: 20px;
-}

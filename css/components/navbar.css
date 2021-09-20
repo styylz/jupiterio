@@ -11,10 +11,6 @@
     color: aqua;
 }
 
-.text{
-    color: aliceblue;
-    font-weight: 100;
-}
 
 .nav__logo {
     width: 30px;
@@ -24,7 +20,7 @@
 }
 
 .nav__text-logo {
-    font-family: 'Montserrat';
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 1.5rem;
 }

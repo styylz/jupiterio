@@ -11,7 +11,7 @@
 
 .modal-y {
     position: fixed;
-    color: #000000;
+    color: var(--secondary);
 
     background-image: url(../../img/Layer.jpg);
     background-color: #f8f3f0;
@@ -39,7 +39,7 @@
     height: 22px;
 
     background-image: url(../../svg/cross.svg);
-    background-color: #f8f3f0;
+    background-color: var(--light);
 
     background-repeat: no-repeat;
     background-size: cover ;
@@ -68,17 +68,17 @@
 
 
     font-style: inherit;
-    color: #000000;
+    color: var(--secondary);
     text-transform: uppercase;
 
-    background-color: #f9f6f3;
-    border: 2px solid #000000;
+    background-color: var(--light);
+    border: 2px solid var(--secondary);
 }
 
 /* ? not workin [?]*/
 .login-form input:focus {
-    border-color: #ffa600;
-    outline: #ffa600;
+    border-color: var(--primary);
+    outline: var(--primary);
 }
 /*  */
 
