@@ -8,7 +8,7 @@
 
 >  ##JS Login
 
-###Variables
+### Variables
 ```
 const link = document.querySelector(".login-link");
 const popup = document.querySelector(".modal-login");
@@ -28,9 +28,8 @@ try {
     isStorageSupport = false;
 }
 ```
-<!-- On click opens Modal Window -->
+### onClick open modal window
 ```
-// open
 link.addEventListener("click", function(evt) {
     evt.preventDefault();
     console.log("User-login");
@@ -44,9 +43,9 @@ link.addEventListener("click", function(evt) {
     }
 } );
 ```
-<!-- On click on cross closes Modal Window -->
-```
-// close
+
+
+### onClick on cross close window
 ```
 close.addEventListener("click", function(evt){
     evt.preventDefault();
@@ -55,10 +54,9 @@ close.addEventListener("click", function(evt){
 
 })
 ```
-<!-- Checks if login or password exists, if not shake animation activates at modal window -->
-<!--  -->
 
-// form 
+
+### onSubmit check if user have entered login & password
 ```
 form.addEventListener("submit", function (evt) {
     evt.preventDefault();
@@ -76,8 +74,7 @@ form.addEventListener("submit", function (evt) {
 })
 ```
 
-<!-- On submit click calls alert window -->
-// submit
+### onClick on submit message user
 ```
 submit.addEventListener("click", function () {
     alert("Message sent");
