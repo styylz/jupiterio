@@ -6,8 +6,10 @@
 
 ## Code Samples
 
->  JS Login
+>  ##JS Login
 
+###Variables
+```
 const link = document.querySelector(".login-link");
 const popup = document.querySelector(".modal-login");
 const close = document.querySelector(".modal-close");
@@ -15,10 +17,10 @@ const login = document.querySelector("[name=login]");
 const form = document.querySelector("form");
 const password = document.querySelector("[name=password]");
 const submit = document.querySelector(".submit");
-
 let isStorageSupport = true;
 const storage = "";
-
+```
+### Check for localStorage
 ```
 try {
     storage = localStorage.getItem("login");
@@ -27,6 +29,7 @@ try {
 }
 ```
 <!-- On click opens Modal Window -->
+```
 // open
 link.addEventListener("click", function(evt) {
     evt.preventDefault();
@@ -40,19 +43,23 @@ link.addEventListener("click", function(evt) {
         login.focus();
     }
 } );
-
+```
 <!-- On click on cross closes Modal Window -->
+```
 // close
+```
 close.addEventListener("click", function(evt){
     evt.preventDefault();
     popup.classList.remove("modal-show");
     popup.classList.remove("modal-error");
 
 })
-
+```
 <!-- Checks if login or password exists, if not shake animation activates at modal window -->
 <!--  -->
+
 // form 
+```
 form.addEventListener("submit", function (evt) {
     evt.preventDefault();
     if(!login.value || !password.value) {
@@ -67,12 +74,15 @@ form.addEventListener("submit", function (evt) {
         }
     }
 })
+```
 
 <!-- On submit click calls alert window -->
 // submit
+```
 submit.addEventListener("click", function () {
     alert("Message sent");
 })
+```
 
 ## Installation
 
